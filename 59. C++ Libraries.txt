@@ -1,0 +1,13 @@
+Libraries
+	Preprocessor->Compilation(.o)->Link(.exe or no suffix)
+		Static Libraries->(Actually compiled into your program.)
+			Static:
+				Windows-> (filename).lib/	
+				UNIX/Linux-> lib(filename).a
+
+		Dynamic Libraries->(program finds code at run time.)
+			Dynamic:
+				Windows-> (filename).dll
+				UNIX/Linux/Mac-> lib(filename).so
+				Mac-> (filename).dylib
+		
